@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(101, 255, 247, 0.281);
+}
+.tarolo {
+  background-color: rgba(9, 202, 228, 0.733);
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.tartalom {
+  background-color: rgb(15, 231, 159);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+}
+.szoveg {
+  background-color: rgba(106, 171, 255, 0.582);
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.kepek {
+  border: 1px solid black;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.pic {
+  border: 1px solid black;
+  padding: 10px;
+}
+.pic img {
+  width: 100%;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.menu li {
+  background-color: aquamarine;
+  padding: 5px;
+  border: 1px solid green;
+}
+.menu ul li a:hover {
+  color: blue;
+}
+.menu li:hover {
+  background-color: aqua;
+}
